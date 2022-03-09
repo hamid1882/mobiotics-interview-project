@@ -1,0 +1,15 @@
+.player-background {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.exit-btn {
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  z-index: 9999;
+}

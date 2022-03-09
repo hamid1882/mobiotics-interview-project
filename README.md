@@ -1,3 +1,22 @@
+TASKS
+
+Create an SPA (Single Page App) for the following task. You can use HTML5/CSS3/JS and JS frameworks like react, vue or angular to implement the same.
+
+1. Lists Videos in a grid with following details - Image, title, Description. You are free to categorize videos. You can choose images on your own.
+2. On click Shaka player must open up and play the video content (
+   https://github.com/google/shaka-player )
+   (You can use the following site to get video streams -
+   https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/ )
+3. The app should handle interactions, buttons and states.
+4. You should host the app and code on GitHub
+5. Following aspects shall be considered
+
+- UI/UX and Technical Design
+- Code Quality
+- Functionality
+- App Performance
+- Interaction and Dynamic nature
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

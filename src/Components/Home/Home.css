@@ -1,0 +1,7 @@
+.video-card-hover {
+  cursor: pointer;
+}
+
+.video-card-hover:hover {
+  box-shadow: 2px 2px 7px 3px rgb(124, 120, 120);
+}
