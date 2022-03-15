@@ -6,6 +6,7 @@ const allVideosData = [
       "Friends Proog and Emo journey inside the folds of a seemingly infinite Machine, exploring the dark and twisted complex of wires, gears, and cogs, until a moment of conflict negates all their assumptions.",
     video_url:
       "https://dash.akamaized.net/dash264/TestCasesIOP33/MPDChaining/fallback_chain/1/manifest_fallback_MPDChaining.mpd",
+    video_type: "mpd",
   },
   {
     name: "Adaptation set switching set - switching element present",
@@ -15,6 +16,7 @@ const allVideosData = [
       "	Different adaptation sets had different video codecs. The descriptor indicates seamless switching is possible. The switching element is same in all the adaptation sets.",
     video_url:
       "https://dash.akamaized.net/dash264/TestCasesIOP33/adapatationSetSwitching/5/manifest.mpd",
+    video_type: "mpd",
   },
   {
     name: "	Alternate audio language with label",
@@ -24,12 +26,15 @@ const allVideosData = [
       "Alternate content differing by Language with Label Descriptor",
     video_url:
       "https://dash.akamaized.net/dash264/TestCasesIOP41/MultiTrack/alternative_content/6/manifest_alternative_lang.mpd",
+    video_type: "mpd",
   },
   {
     name: "Sintel",
     image: "https://bitmovin-a.akamaihd.net/content/sintel/poster.png",
     description: "Best cool places to visit ",
-    video_url: "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
+    video_url:
+      "https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd",
+    video_type: "mpd",
   },
   {
     name: "Different Cities tour",
@@ -38,6 +43,7 @@ const allVideosData = [
     description: "Best cool places to visit ",
     video_url:
       "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd",
+    video_type: "mpd",
   },
 ];
 
